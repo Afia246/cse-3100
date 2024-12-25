@@ -1,0 +1,115 @@
+/* General Styles */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* About Us Section */
+.about-us {
+  padding: 40px;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* About Text Section */
+.about-text {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.mission-history {
+  border: 2px solid #f1f1f1;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 40px;
+}
+
+.mission-history h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.mission-history p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Team Section */
+.team-section {
+  margin-top: 40px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-card h4 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.team-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
