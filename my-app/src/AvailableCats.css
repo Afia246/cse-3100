@@ -1,0 +1,44 @@
+/* src/components/AvailableCats.css */
+.available-cats {
+    padding: 20px;
+  }
+  
+  .heading {
+    margin-bottom: 20px; /* Space between heading and the search box */
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px; /* Added margin to push the search box down */
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-dropdown {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .search-button {
+    flex: 1 1 auto;
+    min-width: 120px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Increased space between the cards */
+  }
+  
+  .cat-card {
+    max-width: 280px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

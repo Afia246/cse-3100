@@ -1,0 +1,98 @@
+/* src/components/AboutUs.css */
+.about-us {
+    padding: 40px 20px;
+    text-align: center; /* Centers the text */
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-text {
+    max-width: 900px;
+    margin: 0 auto; /* Center the content */
+    text-align: left;
+  }
+  
+  .mission-history h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .mission-history p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .team-section {
+    margin-top: 40px;
+  }
+  
+  .team-section h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .team-card {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-card img {
+    width: 100%;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-card h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .team-card p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us h2 {
+      font-size: 28px;
+    }
+  
+    .mission-history h3 {
+      font-size: 24px;
+    }
+  
+    .mission-history p {
+      font-size: 16px;
+    }
+  
+    .team-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .team-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
